@@ -6,7 +6,7 @@ body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #27A822;
+  border-top: 3px solid #0097A7;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -30,26 +30,26 @@ body {
   border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
-  color: #6b6b6b;
+  color: #607D8B;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #6b6b6b;
+  color: #607D8B;
 }
 .navbar-default .navbar-text {
-  color: #6b6b6b;
+  color: #607D8B;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #6b6b6b;
+  color: #607D8B;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #6b6b6b;
+  color: #607D8B;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #6b6b6b;
+  color: #607D8B;
   background-color: #ffffff;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
+  color: #607D8B;
   background-color: #ffffff;
 }
 .navbar-default .navbar-toggle {
@@ -59,27 +59,27 @@ body {
   background-color: #ffffff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #6b6b6b;
+  background-color: #607D8B;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #6b6b6b;
+  border-color: #607D8B;
 }
 .navbar-default .navbar-link {
-  color: #6b6b6b;
+  color: #607D8B;
 }
 .navbar-default .navbar-link:hover {
-  color: #6b6b6b;
+  color: #607D8B;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #6b6b6b;
+    color: #607D8B;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6b6b6b;
+    color: #607D8B;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6b6b6b;
+    color: #607D8B;
     background-color: #ffffff;
   }
 }
@@ -96,7 +96,7 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color: #27A822;
+  color: #0097A7;
 }
 .container a:hover {
   color: #267723;
@@ -120,7 +120,7 @@ body {
   font-size: 15px;
 }
 .panel-default h4 a, h5 a {
-  color: #27A822;
+  color: #0097A7;
 }
 .panel-default h4 a:hover, h5 a:hover {
   color: #267723;
@@ -171,10 +171,10 @@ body {
   text-decoration: none !important;
 }
 .text-muted {
-	color: #6b6b6b;
+	color: #607D8B;
 }
 div.footer{
-  border-bottom: 5px solid #27A822;;
+  border-bottom: 5px solid #0097A7;;
 }
 /* Set the fixed height of the footer here */
 /*.footer {
