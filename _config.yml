@@ -12,7 +12,7 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://jredeker.github.io/
-baseurl: /blog
+baseurl: /
 title: Jon Redeker
 author: Jon Redeker
 description: Personal blog and resume
