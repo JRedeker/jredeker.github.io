@@ -26,62 +26,75 @@ linkedin: jredeker
 disqus: username
 #google_analytics: UA-69391421-1
 
-
-# needed for travis-ci build
-exclude: [vendor]
-
+#prose
 prose:
   rooturl: '_posts'
   siteurl: 'http://jredeker.github.io/'
   relativeLinks: 'http://jredeker.github.io/links.jsonp'
   media: 'images'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
   metadata:
     _posts:
       - name: "published"
-          field:
-            label: "Published"
-            element: "checkbox"
-            value: "true"
-     - name: "title"
-         field:
-           label: "Title"
-           element: "text"
-           value: "An Awesome Headline!"
-     - name: "modified"
-         field:
-           element: "text"
-           label: "Has this page been modified?"
-           placeholder: "YYYY-MM-DD"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
       - name: "layout"
         field:
           element: "hidden"
+          label: "Layout"
           value: "post"
-      - name: "tags"
+      - name: "title"
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Development"
-              value: "dev"
-            - name: "Comedy"
-              value: "comdedy"
-            - name: "Sports"
-              value: "sports"
-            - name: "Opinion"
-              value: "opinion"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "permalink"
+          label: "Title"
+          element: "text"
+          value: "An Awesome Headline!"
+      - name: "description"
         field:
           element: "text"
-          label: "Permalink"
-          value: ""
+          label: "Description"
+          placeholder: "Enter Post Description"
+      - name: "headline"
+        field:
+          element: "text"
+          label: "beadline"
+          placeholder: "Enter Post Headline"
+      - name: "modified"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
+          placeholder: "YYYY-MM-DD"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: personal
+          options:
+            - name: "Personal"
+              value: personal
+            - name: "Comedy"
+              value: comedy
+            - name: "Sports"
+              value: sports
+            - name: "Opinion"
+              value: opinion
+            - name: "Interesting"
+              value: interesting
+            - name: "Web-Development"
+              value: webdevelopment
+          alterable: true
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Featured?"
+          value: false
+
+
+# needed for travis-ci build
+exclude: [vendor]
