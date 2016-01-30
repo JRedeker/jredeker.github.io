@@ -40,9 +40,9 @@ prose:
             - name: "Comedy"
               value: "comdedy"
             - name: "Sports"
-          	  value: "sports"
-      	    - name: "Opinion"
-      	      value: "opinion"
+              value: "sports"
+            - name: "Opinion"
+              value: "opinion"
     _posts/static:
       - name: "layout"
         field:
