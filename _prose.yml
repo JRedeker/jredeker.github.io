@@ -39,7 +39,7 @@ prose:
               value: "dev"
             - name: "Comedy"
               value: "comdedy"
-          	- name: "Sports"
+            - name: "Sports"
           	  value: "sports"
       	    - name: "Opinion"
       	      value: "opinion"
