@@ -76,13 +76,3 @@ prose:
           	  value: "sports"
       	    - name: "Opinion"
       	      value: "opinion"
-    _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
