@@ -49,6 +49,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	.img-circle {
+		border-radius: 50%;
+	}
 
 	.avatar {
 	  padding-top: 5%;  
